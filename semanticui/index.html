@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEMATIC UI</title>
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+	<style type="text/css">
+		.main-bg{
+			background-image: linear-gradient(#4d9eff , #4d9eff);
+		}
+
+		.text-white{
+			color: #fff;
+		}
+
+		.text-centered{
+			text-align: center;
+		}
+
+		.main-nav
+		{
+			height: 90px;
+			padding-top: 10px;
+			padding-bottom: 40px; 
+		}
+
+		#header_text{
+			padding-top: 140px;
+		}
+		#header_text p{
+			line-height: 180%;
+		}
+		.main-content{
+			padding: 20px 0px;
+		}
+		.footer
+		{
+			background: #fff;
+			color: #000;
+		}
+
+		.widget-container{
+			
+		}
+
+		.my-widget
+		{
+			box-sizing: border-box;
+			margin: 0px auto;
+			border: 2px solid #fff;
+			width: 150px;
+			height: 160px;
+			overflow: hidden;
+			border-radius: 50%;
+		}
+
+		.my-widget img
+		{
+			width: 100%;
+			display: block;
+			margin: 0px auto;
+		}
+
+		.widget-container .widget-label
+		{
+			margin-top: 25px;
+			font-weight: bold;
+			font-size: 1.2em;
+			color: #000;
+		}
+
+		div.brand h3
+		{
+			margin-bottom: 0px !important;
+			display: block;
+		}
+		div.brand .sub-brand
+		{
+			display: block;
+			margin-top: -10px;
+			margin-left: 10px;
+		}
+		.call-to-action
+		{
+			cursor: pointer;
+			background: #fff;
+			color: blue;
+			padding: 10px 20px;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+	<main class="ui fluid">
+		<nav class="main-nav">
+			<div class="ui container">
+				<div class="brand">
+					<h3 class="ui huge header">SITEBRAND</h3>
+					<small class="sub-brand">Site brand description</small>
+				</div>
+			</div>
+		</nav>
+
+		<section class="banner main-bg">
+			<div class="ui">
+				<div class="ui container two column grid">
+					<div class="column">
+						<div class="image">
+							<img src="asset/model.png">
+						</div>
+					</div>
+
+					<div class="column text-white" id="header_text">
+						<div>
+							<h1>THE TAILOR IS IN</h1>
+							<article>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor <br>incididunt ut labore et dolore <strong>magna aliqua</strong>.
+								</p>
+								<hr class="small-hr">
+							</article>
+
+							<article>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit
+									<br> sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+							</article>
+							<div class="ui hidden divider"></div>
+							<div>
+								<button class="call-to-action">BOOK AN APPOINTMENT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="ui hidden divider"></div>
+
+		<section class="main-content bg-white">
+			<div class="ui container">
+				<section class="text-centered">
+					<div class="ui large header">THE MADE TO MEASURE DIFFERENCE</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <br>
+						Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					</p>
+					<div class="ui hidden divider"></div>
+					<button class="ui basic blue button">SEE THE SUITS</button>
+				</section>
+			</div>
+		</section>
+
+		<div class="ui hidden divider"></div>
+
+		<section class="footer main-bg">
+			<div class="ui container grid text-centered">
+				<div class="four column centered row">
+
+				   <div class="column">
+				   		<div class="ui segment widget-container text-centered">
+					   		<div class="my-widget">
+						   		<a href="#"><img src="asset/rulericon.png"></a>
+					   		</div>
+				   			<div class="widget-label">COME SEE US</div>
+				   			<small>consectetur adipisicing elit</small>
+				   		</div>
+				   </div>
+				   <div class="column">
+				   		<div class="ui segment  widget-container text-centered">
+					   		<div class="my-widget">
+						   		<a href="#"><img src="asset/card.png"></a>
+					   		</div>
+				   			<div class="widget-label">COME SEE US</div>
+				   			<small>consectetur adipisicing elit</small>
+				   		</div>
+				   </div>
+				   <div class="column">
+				   		<div class="ui segment  widget-container text-centered">
+					   		<div class="my-widget">
+						   		<a href="#"><img src="asset/suit.png"></a>
+					   		</div>
+				   			<div class="widget-label">COME SEE US</div>
+				   			<small>consectetur adipisicing elit</small>
+				   		</div>
+				   </div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="semantic/semantic.min.js"></script>
+</body>
+</html>
