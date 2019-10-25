@@ -3,92 +3,7 @@
 <head>
 	<title>SEMATIC UI</title>
 	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
-	<style type="text/css">
-		.main-bg{
-			background-image: linear-gradient(#4d9eff , #4d9eff);
-		}
-
-		.text-white{
-			color: #fff;
-		}
-
-		.text-centered{
-			text-align: center;
-		}
-
-		.main-nav
-		{
-			height: 90px;
-			padding-top: 10px;
-			padding-bottom: 40px; 
-		}
-
-		#header_text{
-			padding-top: 140px;
-		}
-		#header_text p{
-			line-height: 180%;
-		}
-		.main-content{
-			padding: 20px 0px;
-		}
-		.footer
-		{
-			background: #fff;
-			color: #000;
-		}
-
-		.widget-container{
-			
-		}
-
-		.my-widget
-		{
-			box-sizing: border-box;
-			margin: 0px auto;
-			border: 2px solid #fff;
-			width: 150px;
-			height: 160px;
-			overflow: hidden;
-			border-radius: 50%;
-		}
-
-		.my-widget img
-		{
-			width: 100%;
-			display: block;
-			margin: 0px auto;
-		}
-
-		.widget-container .widget-label
-		{
-			margin-top: 25px;
-			font-weight: bold;
-			font-size: 1.2em;
-			color: #000;
-		}
-
-		div.brand h3
-		{
-			margin-bottom: 0px !important;
-			display: block;
-		}
-		div.brand .sub-brand
-		{
-			display: block;
-			margin-top: -10px;
-			margin-left: 10px;
-		}
-		.call-to-action
-		{
-			cursor: pointer;
-			background: #fff;
-			color: blue;
-			padding: 10px 20px;
-			font-weight: bold;
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<main class="ui fluid">
@@ -158,41 +73,77 @@
 		<div class="ui hidden divider"></div>
 
 		<section class="footer main-bg">
-			<div class="ui container grid text-centered">
-				<div class="four column centered row">
+			<div class="ui container text-centered">
+				<section id="footer_wide_screen">
+					<div class="ui three column grid">
+					   <div class="column">
+					   		<div class="ui segment widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/rulericon.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
+					   		</div>
+					   </div>
+					   <div class="column">
+					   		<div class="ui segment  widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/card.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
+					   		</div>
+					   </div>
+					   <div class="column">
+					   		<div class="ui segment  widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/suit.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
+					   		</div>
+					   </div>
+					</div>
+				</section>
 
-				   <div class="column">
-				   		<div class="ui segment widget-container text-centered">
-					   		<div class="my-widget">
-						   		<a href="#"><img src="asset/rulericon.png"></a>
+				<section id="footer_portrait">
+					<div class="ui row">
+					   <div class="column">
+					   		<div class="ui segment widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/rulericon.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
 					   		</div>
-				   			<div class="widget-label">COME SEE US</div>
-				   			<small>consectetur adipisicing elit</small>
-				   		</div>
-				   </div>
-				   <div class="column">
-				   		<div class="ui segment  widget-container text-centered">
-					   		<div class="my-widget">
-						   		<a href="#"><img src="asset/card.png"></a>
+					   </div>
+					   <div class="column">
+					   		<div class="ui segment  widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/card.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
 					   		</div>
-				   			<div class="widget-label">COME SEE US</div>
-				   			<small>consectetur adipisicing elit</small>
-				   		</div>
-				   </div>
-				   <div class="column">
-				   		<div class="ui segment  widget-container text-centered">
-					   		<div class="my-widget">
-						   		<a href="#"><img src="asset/suit.png"></a>
+					   </div>
+					   <div class="column">
+					   		<div class="ui segment  widget-container text-centered">
+						   		<div class="my-widget">
+							   		<a href="#"><img src="asset/suit.png"></a>
+						   		</div>
+					   			<div class="widget-label">COME SEE US</div>
+					   			<small>consectetur adipisicing elit</small>
 					   		</div>
-				   			<div class="widget-label">COME SEE US</div>
-				   			<small>consectetur adipisicing elit</small>
-				   		</div>
-				   </div>
-
-				</div>
+					   </div>
+					</div>
+				</section>
 			</div>
 		</section>
 	</main>
+	<script
+		  src="https://code.jquery.com/jquery-2.2.4.min.js"
+		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		  crossorigin="anonymous"></script>
 	<script src="semantic/semantic.min.js"></script>
 </body>
 </html>
